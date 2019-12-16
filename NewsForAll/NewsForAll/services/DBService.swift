@@ -9,6 +9,6 @@
 import Foundation
 
 protocol CRUD {
-    func save()
+    func save() -> Any?
     static func find() -> Any?
 }

@@ -21,7 +21,7 @@ class ProfileViewController: UIViewController {
     
     @IBAction func didPressSave(_ sender: UIButton) {
         dismissKeyboard()
-        service.saveUser(userName: userNameField.text)
+        user = service.saveUser(userName: userNameField.text)
     }
     
     @objc func dismissKeyboard() {

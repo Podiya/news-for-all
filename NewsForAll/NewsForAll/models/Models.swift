@@ -14,8 +14,9 @@ struct User: CRUD {
     static let defaults = Defaults()
     var userName: String
     
-    func save() {
+    func save() -> Any? {
         User.defaults["username"] = userName
+        return self
     }
 
     static func find() -> Any? {

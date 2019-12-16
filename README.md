@@ -1,6 +1,6 @@
 # News For All
 
-### Requirements (A Mac is required to build projects with native code for iOS)
+### Requirements
 - Xcode 11.1
 - Swift 5
 - CocoaPods
@@ -13,6 +13,7 @@
 - go to your project directory where the podfile is placed.
 - run followings  
 `pod install` - this will install all pod frameworks in to your project   
+- run project with xcode
 
 ### (IHProgressHUD error)   
 if you are expiriencing following error

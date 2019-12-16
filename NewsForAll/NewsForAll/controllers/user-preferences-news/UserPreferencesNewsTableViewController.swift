@@ -52,6 +52,11 @@ class UserPreferencesNewsTableViewController: BaseArticleTableViewController {
         super.viewWillAppear(animated)
         navigationItem.title = selectedCategory
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        pickerView.isHidden = true
+    }
 }
 
 extension UserPreferencesNewsTableViewController: UIPickerViewDelegate, UIPickerViewDataSource {

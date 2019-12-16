@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  newsforall
-//
-//  Created by user on 12/12/19.
-//  Copyright © 2019 MIHCM. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

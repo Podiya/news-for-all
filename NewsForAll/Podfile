@@ -6,5 +6,10 @@ target 'newsforall' do
   use_frameworks!
 
   # Pods for newsforall
+  pod 'Alamofire'
+  pod 'PINRemoteImage'
+  pod 'IHProgressHUD'
+  pod 'NotificationBannerSwift', '~> 3.0.0'
+  pod 'ReachabilitySwift'
 
 end
